@@ -1,0 +1,50 @@
+[[package]]
+name = "clear"
+version = "1.0.1"
+description = "Command-line extract and rename utility"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+goodlogging = "*"
+rarfile = "2.7"
+requests = "2.6.0"
+
+[[package]]
+name = "goodlogging"
+version = "1.0.1"
+description = "Logging module for command line utilities"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "rarfile"
+version = "2.7"
+description = "RAR archive reader for Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "requests"
+version = "2.6.0"
+description = "Python HTTP for Humans."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+security = ["pyopenssl", "ndg-httpsclient", "pyasn1"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "3d9ec0139ffd3b7924b2d8e9f9eae56e97970c8e0bc2dada04f83fc31c3e5a97"
+
+[metadata.files]
+clear = []
+goodlogging = []
+rarfile = []
+requests = []
